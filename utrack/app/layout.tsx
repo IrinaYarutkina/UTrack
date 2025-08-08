@@ -1,3 +1,11 @@
+import "../styles/global.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "User Tracker",
+  description: "Приложение для отслеживания пользователей",
+};
+
 export default function RootLayout({
   children,
 }: {
